@@ -1,36 +1,39 @@
+body {
+    background: linear-gradient(to bottom, black 50%, yellow);
 
-body{
-    background: linear-gradient( to bottom , black 50%, yellow);
-    
-    
-    font-family: 'MyWebFont'; src: url('WebFont.eot'); src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');    
+
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
 }
-header img{
+
+header img {
     height: 7.5rem;
     width: 6.25rem;
 }
 
-header img:hover{
+header img:hover {
     transform: scale(1.2);
 }
 
 
-header h1{
+header h1 {
     color: rgba(248, 245, 245, 0.884);
     font-size: 40px;
     text-transform: uppercase;
 }
-.aheder{
+
+.aheder {
     text-transform: capitalize;
     text-decoration: none;
     font-size: 15px;
     margin-right: 5px;
     background: linear-gradient(180deg, #f01b14 0%, #caf312 100%);
-    
+
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%,rgb(172, 172, 20)  100%);
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, rgb(172, 172, 20) 100%);
     /* background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%); */
     margin: 5px;
     padding: 3px 15px;
@@ -38,17 +41,73 @@ header h1{
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color:black;            
+    color: black;
     font-size: 13px;
     border-radius: 7px;
-    
-  }
+
+}
 
 
 
- .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-  }
+}
 
+.contenedor1 {
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+}
+
+hr {
+
+    color: red;
+    width: 100%;
+    border: solid red 2px;
+}
+
+main {
+    color: rgba(248, 245, 245, 0.884);
+    height: 25.43rem;
+}
+
+.col img {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    padding: 5% 0;
+}
+
+
+
+header {
+    height: 20%;
+}
+
+.h1main {
+    font-size: 40px;
+}
+
+.h4main {
+    text-transform: capitalize;
+}
+
+.pmain {
+    font-size: 18px;
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.margin {
+    margin-top: 2.25rem;
+}
+
+.parrafosfooter {
+    display: flex;
+    flex-direction: row;
+}
