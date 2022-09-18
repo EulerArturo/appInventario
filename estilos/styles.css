@@ -1,11 +1,16 @@
-body {
-    background: linear-gradient(to bottom, black 50%, yellow);
-
-
+body{
+    background: linear-gradient(to bottom, black 60%, yellow);
     font-family: 'MyWebFont';
     src: url('WebFont.eot');
     src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
 }
+
+/* body {
+    background: linear-gradient(to bottom, black 50%, yellow);
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
+} */
 
 header img {
     height: 7.5rem;
@@ -23,6 +28,10 @@ header h1 {
     text-transform: uppercase;
 }
 
+.links{
+    padding: 0;
+    padding-right: 15px;
+}
 .aheder {
     text-transform: capitalize;
     text-decoration: none;
@@ -56,11 +65,7 @@ header h1 {
     text-decoration: none;
 }
 
-.contenedor1 {
-    width: 90%;
-    margin: 0 5%;
-    display: flex;
-}
+
 
 hr {
 
@@ -71,22 +76,15 @@ hr {
 
 main {
     color: rgba(248, 245, 245, 0.884);
-    height: 25.43rem;
+    height: auto;
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
 }
 
-.col img {
-    margin: 0;
-    padding: 0;
-}
 
 .principal {
     padding: 5% 0;
-}
-
-
-
-header {
-    height: 20%;
 }
 
 .h1main {
@@ -107,7 +105,24 @@ header {
     margin-top: 2.25rem;
 }
 
-.parrafosfooter {
+
+.hr2{
+    margin-top: -80px;
+    
+}
+
+footer{
+    color:black;
+    font-size: 20px;
     display: flex;
-    flex-direction: row;
+    justify-content: end;
+}
+
+footer span{
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+.spanDerechos{
+    margin-left: 40px;
+    color: #8f918b;
 }
